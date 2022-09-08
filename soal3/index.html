@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body style="width: 20%; margin: auto;">
+  <div style="margin-bottom: 2em;">
+    <form class="button">
+      <label>color1</label>
+      <input style="margin-bottom: 0.5em; width: 100%" type="text">
+      <label>color2</label>
+      <input style="margin-bottom: 0.5em; width: 100%" type="text">
+      <button style="margin-top: 1em; width: 100%;">submit</button>
+    </form>
+  </div>
+
+  <p style="text-align: center;">Result</p>
+  <div style="outline: grey solid .5px;width: 9em; margin: auto;">
+    <div id="color-top" style="height: 3em; background-color: rgb(255, 0, 0); ">
+    </div>
+    <div id="color-Bottom" style="height: 3em; background-color: rgb(255, 255, 255);">
+    </div>
+  </div>
+
+</body>
+<script>
+  const button = document.querySelector('.button');
+  const colorTop = document.querySelector('#color-top');
+  const colorBottom = document.querySelector('#color-Bottom');
+
+  button.addEventListener('submit', function (e) {
+    console.log(e)
+    // var colorIndex = parseInt(Math.random() * colors.length);
+    colorTop.style.backgroundColor = e.target[0].value;
+    colorBottom.style.backgroundColor = e.target[1].value;
+    // text.innerText = colors[colorIndex];
+    e.preventDefault()
+  })
+</script>
+
+</html>
