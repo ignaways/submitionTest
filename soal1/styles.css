@@ -1,0 +1,114 @@
+.FLAG {
+  margin: .75em;
+  height: 4em;
+  width: 6em;
+  float: left;
+  box-shadow: rgb(126, 126, 126) 2px 2px 5px;
+}
+
+.jepang {
+  position: relative;
+  background: rgb(255, 255, 255);
+}
+.circle {
+  position: absolute;
+  top: 1em;
+  left: 2em;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgb(223, 31, 31);
+}
+
+.indonesia {
+  background: linear-gradient(to bottom, red 50%, white 50%);
+}
+
+.belgium {
+  background: linear-gradient(
+    to right,
+    black 33%,
+    yellow 33%,
+    yellow 66%,
+    red 66%
+  );
+}
+
+.armenia {
+  background: linear-gradient(
+    to bottom,
+    red 33%,
+    blue 33%,
+    blue 66%,
+    yellow 66%
+  );
+}
+
+.bahamas {
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 102, 153) 33%,
+    rgb(255, 230, 0) 33%,
+    rgb(255, 230, 0) 66%,
+    rgb(0, 102, 153) 66%
+  );
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 2em solid transparent;
+  border-bottom: 2em solid transparent;
+  border-left: 2.5em solid black;
+}
+
+.colombia {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 225, 0) 50%,
+    rgb(255, 225, 0) 33%,
+    rgb(0, 0, 195) 25%,
+    rgb(0, 0, 195) 77%,
+    rgb(228, 1, 1) 66%
+  );
+}
+
+.benin {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 0) 50%,
+    rgb(237, 0, 0) 50%
+  );
+  position: relative;
+}
+.benin2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  background: rgb(0, 154, 64);
+}
+
+.swedia {
+  display: inline-block;
+  background: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0),
+    rgb(228, 0, 0);
+  background-position: 30%;
+  background-size: 100% 0.75em, 0.75em 100%;
+  background-repeat: no-repeat;
+}
+
+.polandia {
+  background: linear-gradient(to bottom, white 50%, rgb(222, 0, 0) 50%);
+}
+.france {
+  background: linear-gradient(
+    to right,
+    rgb(15, 0, 101) 33%,
+    rgb(255, 255, 255) 33%,
+    rgb(255, 255, 255) 66%,
+    rgb(195, 0, 0) 66%
+  );
+}
